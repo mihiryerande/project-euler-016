@@ -9,7 +9,7 @@
 from math import floor, log10
 
 
-def main(n):
+def main(n: int) -> int:
     """
     Returns the sum of the digits of the number 2^n.
 
@@ -17,10 +17,10 @@ def main(n):
         n (int): Natural number
 
     Returns:
-        Sum of digits of 2^n
+        (int): Sum of digits of 2^n
 
     Raises:
-        AssertError: if incorrect params are given
+        AssertError: if incorrect args are given
     """
     assert type(n) == int and n > 0
 
